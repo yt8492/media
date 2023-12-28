@@ -92,6 +92,7 @@ object MediaItemTree {
       MediaMetadata.Builder()
         .setAlbumTitle(album)
         .setTitle(title)
+        .setDisplayTitle("displayTitle")
         .setArtist(artist)
         .setGenre(genre)
         .setIsBrowsable(isBrowsable)
